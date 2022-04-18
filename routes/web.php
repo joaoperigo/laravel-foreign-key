@@ -21,3 +21,4 @@ Route::get('/', function () {
 
 
 Route::get('/data', [IndexController::class, 'index']);
+Route::get('/group', [IndexController::class, 'group']);
